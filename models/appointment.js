@@ -41,7 +41,6 @@ const appointmentSchema = new Schema(
       default: Date.now,
     },
   },
-
   { minimize: false }
 );
 
